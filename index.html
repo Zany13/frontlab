@@ -4,24 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Подолян С.С. ІК-34</title>
-    <link rel="stylesheet" href="lab2.css">
-    <style>
-    table {
-      border-collapse: collapse;
-      width: 800px;
-      height: 200px;
-        table-layout: fixed;
-    }
-    td {
-   border: 1px solid black;
-    height: 60px;        /* фіксована висота */
-    text-align: center;
-    }
-  </style>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h2>Подолян Софія Сергіївна</h2>
-    <p>Місце та дата народження: 31.05.2006 м.Кам'янець-Подільський</p>
+    <h2 id="el1">Подолян Софія Сергіївна</h2>
+    <p id="el2">Місце та дата народження: 31.05.2006 м.Кам'янець-Подільський</p>
     <p>Освіта: Кам'янець-Подільський ліцей №18 <br>
     Фаховий коледж інформаційних систем і технологій КНЕУ ім. В. Гетьмана, м. Київ <br>
 НТУУ "КПІ", м.Київ</p>
@@ -49,26 +37,12 @@
 <a href="https://www.wien.info/en">
 <img src="Viden.jpeg" alt="Зображення">
 </a>
- <table>
-  <table>
-  <tr class="row1">
-    <td>Подолян</td>
-    <td>Софія</td>
-    <td rowspan="2" colspan="2">Сергіївна</td>
-    <td colspan="2"></td>
-    <td rowspan="2" colspan="2"></td>
-  </tr>
- 
-  <tr class="row2">
-    <td colspan="2">Група ІК-34</td>
-    <td colspan="2">Лабораторна робота №2, варіант 10</td>
-    
-  </tr>
-  <tr>
-    <td colspan="2"></td>
-    <td colspan="6"></td>
-  </tr>
-  
-</table>
+<div>
+    <button id="addImg">Додати</button>
+    <button id="increaseImg">Збільшити</button>
+    <button id="decreaseImg">Зменшити</button>
+    <button id="deleteImg">Видалити</button>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
